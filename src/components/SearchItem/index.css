@@ -1,0 +1,85 @@
+/* Style for list container */
+.list-container {
+  width: 330px; /* Adjust width as needed */
+  height: 340px; /* Adjust height as needed */
+  overflow-y: auto; /* Enable vertical scrollbar */
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-top: 250px;
+}
+
+/* Style for item list */
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for list items */
+.item-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee; /* Add border between items */
+}
+
+/* Style for list items on hover */
+.item-list li:hover {
+  background-color: white; /* Change background color on hover */
+}
+
+/* Style for scrollbar */
+/* Webkit (Chrome, Safari, etc.) */
+.list-container::-webkit-scrollbar {
+  width: 10px; /* Adjust scrollbar width as needed */
+}
+
+.list-container::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Change scrollbar thumb color */
+  border-radius: 5px; /* Add rounded corners to scrollbar thumb */
+}
+
+/* Firefox */
+.list-container::-moz-scrollbar {
+  width: 10px; /* Adjust scrollbar width as needed */
+}
+
+.list-container::-moz-scrollbar-thumb {
+  background-color: #ccc; /* Change scrollbar thumb color */
+  border-radius: 5px; /* Add rounded corners to scrollbar thumb */
+}
+
+img {
+  height: 30px;
+  width: 35px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.para-style {
+  font-weight: bold;
+  font-weight: 50px;
+  color: black;
+  margin-left: 10px;
+}
+h1 {
+  color: red;
+}
+
+.search-input {
+  padding: 5px;
+  margin: 4px;
+  outline: none;
+  border: 0px;
+}
+
+.search-container {
+  border: 1px dotted black;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  width: 180px;
+  border-right-width: 2px;
+  border-right-color: black;
+}

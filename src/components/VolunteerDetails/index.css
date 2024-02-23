@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header,
+section,
+footer {
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+.link {
+  color: white;
+}
+
+.user-icon {
+  height: 250px;
+  width: 250px;
+  margin-left: 130px;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  color: purple;
+}
+p,
+ul {
+  color: black;
+  font-weight: 600;
+}
+
+.contact-button {
+  color: blueviolet;
+  padding: 10px;
+}

@@ -1,0 +1,81 @@
+.progress-circle {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.progress-circle3 {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.progress-circle-wrapper {
+  position: relative;
+}
+
+.progress-circle-svg {
+  transform: rotate(-90deg);
+}
+h4 {
+  color: grey;
+}
+
+.progress-circle-track {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 6;
+}
+
+.progress-circle-bar {
+  fill: none;
+  stroke: #007bff; /* Change color as needed */
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-dasharray: calc(251.2 * 0.6); /* 40% reduction */
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.progress-circle-bar2 {
+  fill: none;
+  stroke: #007bff; /* Change color as needed */
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-dasharray: calc(251.2 * 0.5); /* 40% reduction */
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.progress-circle-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.progress-circle-percent {
+  font-weight: bold;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+.bg-container-each-progress-circle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  padding: 3px;
+  border-radius: 10px;
+  
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+}
+
+h4 {
+  margin-left: 16px;
+  color: darkorchid;
+}
