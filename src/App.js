@@ -16,6 +16,7 @@ const App = () => (
     <Route exact path="/contact" component={ContactsContainer} />
     <Route exact path="/dashboard" component={Dashboard} />
   </Switch>
+<DisasterReportForm />
 )
 
 export default App
