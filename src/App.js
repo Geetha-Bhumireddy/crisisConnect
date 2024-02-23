@@ -9,7 +9,13 @@ import DisasterReportForm from './form.jsx'
 import './App.css'
 
 const App = () => (
-  <DisasterReportForm />
+  <Switch>
+    <Route exact path="/login" component={LoginForm} />
+    <Route exact path="/" component={Home} />
+    <Route exact path="/details" component={VolunteerDetails} />
+    <Route exact path="/contact" component={ContactsContainer} />
+    <Route exact path="/dashboard" component={Dashboard} />
+  </Switch>
 )
 
 export default App
